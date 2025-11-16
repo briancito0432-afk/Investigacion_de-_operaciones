@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-m">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máximos y Mínimos de una Cúbica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculadora-container">
+        <h1>Máximos y Mínimos de una Función Cúbica</h1>
+        <p>Ingresa los coeficientes para la función: <strong>f(x) = ax³ + bx² + cx + d</strong></p>
+
+        <div class="form-grid">
+            <div class="input-group">
+                <label for="a">a:</label>
+                <input type="number" id="a" value="1">
+                <span>x³ +</span>
+            </div>
+            <div class="input-group">
+                <label for="b">b:</label>
+                <input type="number" id="b" value="-6">
+                <span>x² +</span>
+            </div>
+            <div class="input-group">
+                <label for="c">c:</label>
+                <input type="number" id="c" value="9">
+                <span>x +</span>
+            </div>
+            <div class="input-group">
+                <label for="d">d:</label>
+                <input type="number" id="d" value="1">
+            </div>
+
+            <h3>Definir Intervalo [Xmín, Xmáx]</h3>
+            <div class="input-group">
+                <label for="xMin">X Mínimo:</label>
+                <input type="number" id="xMin" value="-10">
+            </div>
+            <div class="input-group">
+                <label for="xMax">X Máximo:</label>
+                <input type="number" id="xMax" value="10">
+            </div>
+        </div>
+
+        <button id="calcularBtn">Calcular</button>
+
+        <div id="resultado">
+            <p>Por favor, ingresa los valores y presiona "Calcular".</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
